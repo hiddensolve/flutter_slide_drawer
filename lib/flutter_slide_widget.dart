@@ -254,9 +254,9 @@ class SliderDrawerWidgetState extends State<SliderDrawerWidget>
                 borderRadius: BorderRadius.circular(radiusAmount * drawerRate),
                 child: GestureDetector(
                   behavior: HitTestBehavior.opaque,
-                  onHorizontalDragStart: _onDragStart,
-                  onHorizontalDragUpdate: _onDragUpdate,
-                  onHorizontalDragEnd: _onDragEnd,
+                  // onHorizontalDragStart: _onDragStart,
+                  // onHorizontalDragUpdate: _onDragUpdate,
+                  // onHorizontalDragEnd: _onDragEnd,
                   child: widget.body,
                 ),
               ),
